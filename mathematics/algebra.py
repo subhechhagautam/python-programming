@@ -6,6 +6,7 @@ def nth_root(value, n):
     return value ** (1 / n)
 
 def solve_quadratic_eq(a, b, c):
+    #ohga
     """Solve a quadratic equation ax^2 + bx + c = 0 using the quadratic formula.
        Returns two roots as a tuple."""
     discriminant = b**2 - 4 * a * c
